@@ -41,6 +41,7 @@ log_var PORT_INT $PORT_INT
 log_var USER $USER
 log_var VOL $VOL
 
+mkdir -p $HOST_MNT_DIR
 
 docker run \
        -$MODE \

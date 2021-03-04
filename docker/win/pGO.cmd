@@ -38,6 +38,7 @@ CALL LOG_VAR PORT_INT %PORT_INT%
 CALL LOG_VAR USER %USER%
 call LOG_VAR VOL %VOL%
 
+mkdir -p %HOST_MNT_DIR%
 
 docker run ^
        -%MODE% ^
